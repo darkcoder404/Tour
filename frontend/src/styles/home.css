@@ -23,18 +23,24 @@ html, body {
    margin-top   : 1rem;
    margin-bottom: 2rem;
    color        : var(--heading-color);
+   padding-left: 20px;
+   
 }
 
 .hero__content h1 .hightlight {
    color: var(--secondary-color);
    padding-right: 100%;
+   
 }
+
 
 .hero__content p {
    font-size  : 1rem;
    color      : var(--text-color);
    line-height: 1.4rem;
    padding-right: 10%;
+   text-align: center;
+   padding-left: 30px;
 }
 
 

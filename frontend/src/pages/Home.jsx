@@ -17,18 +17,21 @@ const Home = () => {
       <section>
          <Container>
             <Row>
+               
+
+               <Col lg='3'>
+                  <div className=" hero__video-box  mt-4">
+                     <video src={heroImg} alt="" controls  />
+                  </div>
+               </Col>
+
                <Col lg='6'>
                   <div className="hero__content">
                      <h1>From historical cities to natural splendours, come see the best of<span className='hightlight'> Odisha</span></h1>
                      <p>
                         Odisha is a home to the finest architectural heritage, serene ghats, spectacular landscapes and the largest brackish water lake.
+                        <br/> "Unveil the Mystical Treasures of Odisha: A Land of Ancient Wonders and Modern Marvels."
                      </p>
-                  </div>
-               </Col>
-
-               <Col lg='3'>
-                  <div className=" hero__video-box  mt-4">
-                     <video src={heroImg} alt="" controls muted />
                   </div>
                </Col>
                <Col lg='3'>
