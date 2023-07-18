@@ -6,6 +6,11 @@
    --font-name         : "Montserrat", sans-serif;
    --subtitle-font-name: "Island Moments", cursive;
 }
+html, body {
+   margin:0;
+   padding:0;
+
+   }
 
 .hero__subtitle img {
    width : 2.3rem;
@@ -22,20 +27,22 @@
 
 .hero__content h1 .hightlight {
    color: var(--secondary-color);
+   padding-right: 100%;
 }
 
 .hero__content p {
    font-size  : 1rem;
    color      : var(--text-color);
    line-height: 1.4rem;
+   padding-right: 10%;
 }
 
-.hero__img-box img,
-.hero__img-box video {
+
+.hero__video-box video {
    width        : 100%;
    height       : 350px;
    border-radius: 20px;
-   border       : 1px solid var(--secondary-color);
+   border       : 4px solid var(--secondary-color);
    object-fit   : cover;
 }
 

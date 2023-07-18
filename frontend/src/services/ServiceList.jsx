@@ -8,18 +8,18 @@ import customizationImg from '../assets/images/customization.png'
 const servicesData = [
    {
       imgUrl: weatherImg,
-      title: `Calculate Weather`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: `User Reviews and Ratings`,
+      desc: `Experience the World's Best, Rated by Travelers like You`,
    },
    {
       imgUrl: guideImg,
       title: `Best Tour Guide`,
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      desc: `Unlock Boundless Adventures with our Ultimate  Experience.`,
    },
    {
       imgUrl: customizationImg,
-      title: 'Customization',
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
+      title: 'Customized Holiday Packages',
+      desc: `Your Dream Getaway, Tailored to Perfection.`,
    },
 ]
 

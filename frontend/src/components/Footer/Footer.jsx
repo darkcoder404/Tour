@@ -41,10 +41,10 @@ const Footer = () => {
       <footer className='footer'>
          <Container>
             <Row>
-               <Col lg='3'>
+               <Col lg='6'>
                   <div className="logo">
                      <img src={logo} alt="" />
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, enim.</p>
+                     <p>Stay Connected, Explore More - Follow Us on the Journey.</p>
                      <div className="social__link d-flex align-items-center gap-4">
                         <span>
                            <Link to='#'>
@@ -70,63 +70,32 @@ const Footer = () => {
                   </div>
                </Col>
 
-               <Col lg='3'>
-                  <h5 className="footer__link-title">Discover</h5>
-
-                  <ListGroup className='footer__quick-links'>
-                     {
-                        quick__links.map((item, index) => (
-                           <ListGroupItem key={index} className='ps-0 border-0'>
-                              <Link to={item.path}>{item.display}</Link>
-                           </ListGroupItem>
-                        ))
-                     }
-                  </ListGroup>
-               </Col>
-               <Col lg='3'>
-                  <h5 className="footer__link-title">Quick Links</h5>
-
-                  <ListGroup className='footer__quick-links'>
-                     {
-                        quick__links2.map((item, index) => (
-                           <ListGroupItem key={index} className='ps-0 border-0'>
-                              <Link to={item.path}>{item.display}</Link>
-                           </ListGroupItem>
-                        ))
-                     }
-                  </ListGroup>
-               </Col>
-               <Col lg='3'>
+               <Col lg='6'>
                   <h5 className="footer__link-title">Contact</h5>
 
                   <ListGroup className='footer__quick-links'>
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
                         <h6 className='mb-0 d-flex align-items-center gap-2'>
-                           <span><i class='ri-map-pin-line'></i></span>
-                           Address:
+                           <span><i class='ri-mail-line'></i></span>
+                           Subham Dikshit
                         </h6>
-                        <p className='mb-0'>Lorem</p>
+                        <a className='mb-0' href=""  >&nbsp; &nbsp; subhamdikshit007@gmail.com</a>
                      </ListGroupItem>
 
                      <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
                         <h6 className='mb-0 d-flex align-items-center gap-2'>
                            <span><i class='ri-mail-line'></i></span>
-                           Email:
+                           Soumyajeet Muni
                         </h6>
 
-                        <p className='mb-0'>Lorem</p>
+                        <a className='mb-0'> &nbsp; soumyajeetmuni@gmail.com</a>
                      </ListGroupItem>
+                     
 
-                     <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
-                        <h6 className='mb-0 d-flex align-items-center gap-2'>
-                           <span><i class='ri-phone-fill'></i></span>
-                           Phone:
-                        </h6>
-
-                        <p className='mb-0'>Lorem</p>
-                     </ListGroupItem>
                   </ListGroup>
+                 
                </Col>
+   
             </Row>
          </Container>
       </footer>

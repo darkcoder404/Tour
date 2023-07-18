@@ -4,6 +4,7 @@ import { NavLink, Link, useNavigate } from 'react-router-dom'
 import Logo from '../../assets/images/logo.png'
 import "./header.css"
 import { AuthContext } from '../../context/AuthContext'
+import Home from '../../pages/Home'
 
 const nav__links = [
    {
@@ -55,8 +56,8 @@ const Header = () => {
             <Row>
                <div className="nav__wrapper d-flex align-items-center justify-content-between">
                   {/* ========== LOGO ========== */}
-                  <div className="logo">
-                     <img src={Logo} alt="" />
+                  <div className="logo" >
+                     <img src={Logo} alt=""/>
                   </div>
                   {/* ========================== */}
 
